@@ -16,13 +16,13 @@ pip install python-docx
 **From .mdx/.json to .docx:** Convert your source files to `.docx`
 
 ```bash
-python3 convert_for_translation.py to-docx ./source ./for_translation
+python3 md-converter.py to-docx ./source ./for_translation
 ```
 
 **From .docx to .mdx/.json:** Convert the translated `.docx` files back to `.mdx`/`.json`
 
 ```bash
-python3 convert_for_translation.py from-docx ./translated ./output
+python3 md-converter.py from-docx ./translated ./output
 ```
 
 The folder structure is preserved. Each file is named unambiguously (e.g. `page.mdx` → `page.mdx.docx` → `page.mdx`), so the mapping is always clear. The output folder is created automatically if it doesn't exist.
