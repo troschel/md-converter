@@ -4,10 +4,10 @@ Converts .mdx and .json files to .docx and back
 
 Usage:
     # Source  -> .docx
-    python convert_for_translation.py to-docx   ./source   ./for_translation
+    python md-converter.py to-docx   ./source   ./for_translation
 
     # .docx  -> .mdx/.json
-    python convert_for_translation.py from-docx ./translated ./ergebnis
+    python md-converter.py from-docx ./translated ./ergebnis
 
     change ./source or ./translated with the current directory where your files are
 
