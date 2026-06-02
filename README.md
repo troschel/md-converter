@@ -26,3 +26,6 @@ python3 md-converter.py from-docx ./translated ./output
 ```
 
 The folder structure is preserved. Each file is named unambiguously (e.g. `page.mdx` → `page.mdx.docx` → `page.mdx`), so the mapping is always clear. The output folder is created automatically if it doesn't exist.
+
+This script can be used to convert Markdown- or JSON-Files for translation, as professional translation services, but also LLM's tend to work better with .docx files. 
+**Note when working with automatic translation**: Syntax in .json-files will also be translated and will make files unusable. If working wit LLM's or automatic translators, instruct them not to translate syntax.
